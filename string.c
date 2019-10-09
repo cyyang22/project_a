@@ -9,7 +9,7 @@ int my_strlen(const char *s)
 int main(void) {
 	int i;
 
-	char *s[] = {
+	(const char *s[] = {
 		"Git tutorials", "Hello World"
 	};
 	for (i = 0; i < 2; ++i)
